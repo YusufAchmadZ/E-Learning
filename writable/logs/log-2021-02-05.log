@@ -1,0 +1,11 @@
+CRITICAL - 2021-02-05 03:20:37 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ltsa1\app\Models\SiswaModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Siswa.php(22): App\Models\SiswaModel->get_siswa()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Siswa->v_siswa()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

@@ -1,0 +1,250 @@
+CRITICAL - 2021-04-21 01:16:29 --> Undefined variable: value
+#0 C:\xampp\htdocs\ltsa1\app\Views\kelas\create_kuis.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('kelas/create_ku...', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('kelas/create_ku...')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(103): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->create_kuis()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-04-21 01:16:42 --> Undefined variable: value
+#0 C:\xampp\htdocs\ltsa1\app\Views\kelas\create_kuis.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('kelas/create_ku...', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('kelas/create_ku...')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(103): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->create_kuis()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-04-21 01:33:37 --> Undefined index: kode_soal
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 01:43:47 --> Undefined index: no_soal
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 01:57:12 --> Undefined index: no_soal
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:01:00 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:05:44 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:06:35 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:06:53 --> Undefined index: no_soal
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:07:08 --> Undefined index: no_soal
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:13:13 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:15:23 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:18:11 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:19:02 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:22:09 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:22:35 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:26:18 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:27:24 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:39:20 --> Undefined index: no_soal
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:40:23 --> Undefined index: no_soal
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:41:40 --> Undefined index: no_soal
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:42:13 --> Undefined index: no_soal
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 02:43:00 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 03:28:17 --> Undefined index: no_soal
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 04:07:00 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 04:07:26 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 04:10:51 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 04:10:51 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-21 04:13:18 --> Undefined property: App\Controllers\Kelas::$db
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Kelas.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Kelas->input_soal()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

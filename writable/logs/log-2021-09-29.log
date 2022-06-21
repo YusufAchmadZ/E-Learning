@@ -1,0 +1,626 @@
+CRITICAL - 2021-09-29 08:44:40 --> Unknown column 'username' in 'where clause'
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ltsa1\app\Models\AuthModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(153): App\Models\AuthModel->login('2016142067', 'Ucuppolo00')
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->cek_login()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-29 08:46:49 --> Unknown column 'username' in 'where clause'
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ltsa1\app\Models\AuthModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(153): App\Models\AuthModel->login('2016142067', 'Ucuuppolo00')
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->cek_login()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-29 08:48:21 --> Undefined variable: config
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('auth/login')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(25): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-09-29 08:48:30 --> Undefined variable: config
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('auth/login')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(25): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-09-29 08:49:20 --> Undefined variable: config
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('auth/login')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(25): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-09-29 08:52:05 --> Undefined variable: config
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('auth/login')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(25): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-09-29 08:53:09 --> Undefined variable: config
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('auth/login')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(25): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-09-29 08:54:01 --> Undefined variable: config
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('auth/login')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(25): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-09-29 08:56:35 --> Undefined variable: config
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(24): view('auth/login', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-29 08:57:38 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(152): CodeIgniter\Model->__call('login', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->cek_login()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-29 08:58:46 --> Undefined variable: config
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(24): view('auth/login', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-29 09:19:30 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('home/ganjil', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:19:36 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:20:09 --> Call to undefined function in_groups()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/semester', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Login.php(14): view('auth/semester')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->semester()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-29 09:20:15 --> Call to undefined function in_groups()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/semester', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Login.php(14): view('auth/semester')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->semester()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-29 09:20:53 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('auth/login_sisw...', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:21:29 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:21:34 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:23:19 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('auth/login_sisw...', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:23:47 --> Undefined variable: config
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(24): view('auth/login', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-29 09:23:51 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('mapel/guru_07', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:29:18 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('auth/login_sisw...', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:29:21 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:29:23 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:29:24 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:29:24 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:29:42 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:30:48 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('auth/cek_login', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:31:06 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('auth/home', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:31:17 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('mapel/index', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:32:12 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:32:27 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('auth/cek_login', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:32:53 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('guru/v_guru', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:35:47 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('auth/login_sisw...', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:35:49 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('auth/login_sisw...', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:35:50 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('auth/login_sisw...', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:35:51 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:36:13 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:36:22 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('login', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:36:56 --> Undefined variable: config
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Login.php(9): view('auth/login')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-29 09:37:03 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('mapel/guru_07', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:38:12 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('home/ganjil', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:38:19 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('home/ganjil', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:39:02 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('home/ganjil', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:39:06 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('auth/login_sisw...', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:39:07 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:39:31 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:39:55 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('home/ganjil', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:40:46 --> Call to undefined function in_groups()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('template/index', Array, true)
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/home', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(47): view('user/home', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ganjil()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-29 09:43:35 --> Call to undefined function user()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('template/index', Array, true)
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/home', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(47): view('user/home', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ganjil()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-29 09:44:27 --> Call to undefined function user()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('template/index', Array, true)
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/home', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(47): view('user/home', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ganjil()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-29 09:44:52 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('kelas/userc', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:44:56 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('kelas/userb', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:45:59 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('home/ganjil', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:46:49 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('auth/login_sisw...', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:47:46 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('home/ganjil', 'before')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:47:57 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('auth/login_sisw...', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:48:00 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('auth/login_sisw...', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:48:08 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:49:03 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:49:22 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:52:16 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:52:21 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:55:06 --> Call to undefined function in_groups()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/navbar.p...', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(4): view('layout/navbar.p...')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#5 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(33): view('layout/wrapper', Array)
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-29 09:55:15 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:55:25 --> Call to undefined function in_groups()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/navbar.p...', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(4): view('layout/navbar.p...')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#5 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(33): view('layout/wrapper', Array)
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-29 09:55:38 --> Call to undefined function in_groups()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/navbar.p...', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(4): view('layout/navbar.p...')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#5 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(33): view('layout/wrapper', Array)
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-29 09:55:44 --> Call to undefined function in_groups()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/navbar.p...', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(4): view('layout/navbar.p...')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#5 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(33): view('layout/wrapper', Array)
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-29 09:56:33 --> Call to undefined function in_groups()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/navbar.p...', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(4): view('layout/navbar.p...')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#5 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(33): view('layout/wrapper', Array)
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-09-29 09:56:39 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:57:13 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 09:58:02 --> Class 'CodeIgniter\Filters\AuthFilter' not found
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('/', 'after')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-09-29 10:02:17 --> Undefined variable: config
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Auth.php(29): view('auth/login', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-29 10:02:44 --> Call to undefined function in_groups()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('template/index', Array, true)
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/home', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(47): view('user/home', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->ganjil()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-29 10:08:37 --> Call to undefined function in_groups()
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/profil', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\User.php(24): view('user/profil', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->profil()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

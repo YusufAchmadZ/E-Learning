@@ -1,0 +1,328 @@
+CRITICAL - 2021-05-03 00:34:19 --> Invalid file: home.php
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('home')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#5 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#8 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(13): view('layout/wrapper', Array)
+#9 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-05-03 00:35:04 --> Invalid file: home.php
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('home')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#5 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#8 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(13): view('layout/wrapper', Array)
+#9 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-05-03 00:59:17 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$get
+#0 C:\xampp\htdocs\ltsa1\app\Models\HomeModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(21): App\Models\HomeModel->index()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 00:59:57 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$get
+#0 C:\xampp\htdocs\ltsa1\app\Models\HomeModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(21): App\Models\HomeModel->index()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 01:00:00 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$get
+#0 C:\xampp\htdocs\ltsa1\app\Models\HomeModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(21): App\Models\HomeModel->index()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 01:00:09 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$get
+#0 C:\xampp\htdocs\ltsa1\app\Models\HomeModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(21): App\Models\HomeModel->index()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 01:12:30 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$get
+#0 C:\xampp\htdocs\ltsa1\app\Models\HomeModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(21): App\Models\HomeModel->index()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 01:14:10 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$get
+#0 C:\xampp\htdocs\ltsa1\app\Models\HomeModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(21): App\Models\HomeModel->index()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 01:14:18 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$get
+#0 C:\xampp\htdocs\ltsa1\app\Models\HomeModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(21): App\Models\HomeModel->index()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 01:14:50 --> Cannot declare class App\Controllers\HomeModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-03 01:15:07 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$get
+#0 C:\xampp\htdocs\ltsa1\app\Models\HomeModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(21): App\Models\HomeModel->index()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 01:15:43 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$get
+#0 C:\xampp\htdocs\ltsa1\app\Models\HomeModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(21): App\Models\HomeModel->get_home()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 01:48:35 --> Undefined variable: guru
+#0 C:\xampp\htdocs\ltsa1\app\Views\home\edit_home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/edit_home', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('home/edit_home')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(35): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->edit_sampul()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-05-03 01:48:45 --> Undefined variable: guru
+#0 C:\xampp\htdocs\ltsa1\app\Views\home\edit_home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/edit_home', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('home/edit_home')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(35): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->edit_sampul()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-05-03 01:56:16 --> Too few arguments to function App\Controllers\Home::edit_sampul(), 0 passed in C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->edit_sampul()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-03 01:58:22 --> Too few arguments to function App\Controllers\Home::edit_sampul(), 0 passed in C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->edit_sampul()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-03 02:01:07 --> Too few arguments to function App\Controllers\Home::edit_sampul(), 0 passed in C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->edit_sampul()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-03 02:02:55 --> Too few arguments to function App\Controllers\Home::edit_sampul(), 0 passed in C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->edit_sampul()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-03 02:16:27 --> Undefined index: gambar_1
+#0 C:\xampp\htdocs\ltsa1\app\Views\home\home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/home', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('home/home')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(24): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-05-03 03:04:06 --> Undefined variable: home
+#0 C:\xampp\htdocs\ltsa1\app\Views\home\home.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 118, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/home', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('home/home')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(26): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-05-03 03:04:16 --> Undefined variable: home
+#0 C:\xampp\htdocs\ltsa1\app\Views\home\home.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/home', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('home/home')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(26): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-05-03 03:04:24 --> Undefined variable: validation
+#0 C:\xampp\htdocs\ltsa1\app\Views\home\home.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/home', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\content.php(3): view('home/home')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/content....', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(5): view('layout/content....')
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(26): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-05-03 03:05:58 --> Undefined variable: id_home
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-03 03:15:58 --> Too few arguments to function App\Controllers\Home::edit_sampul(), 0 passed in C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->edit_sampul()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-03 03:17:49 --> Too few arguments to function App\Controllers\Home::edit_home(), 0 passed in C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->edit_home()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-03 03:44:01 --> unlink(img_gurusampul2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img_guru...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(71): unlink('img_gurusampul2...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->update('2')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 03:44:38 --> unlink(img_homesampul2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img_home...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(71): unlink('img_homesampul2...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->update('2')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 03:45:10 --> Too few arguments to function App\Controllers\Home::edit_home(), 0 passed in C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->edit_home()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-03 03:45:23 --> Undefined property: App\Controllers\Home::$GuruModel
+#0 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->update('2')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-03 03:48:01 --> unlink(img_homesampul2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img_home...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(71): unlink('img_homesampul2...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->update('2')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 03:48:49 --> unlink(img_gurudefault.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img_guru...', 'C:\\xampp\\htdocs...', 179, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Guru.php(179): unlink('img_gurudefault...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guru->update('10')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-03 03:49:02 --> unlink(img_gurudefault.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img_guru...', 'C:\\xampp\\htdocs...', 179, Array)
+#1 C:\xampp\htdocs\ltsa1\app\Controllers\Guru.php(179): unlink('img_gurudefault...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Guru->update('10')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

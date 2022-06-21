@@ -1,0 +1,11 @@
+CRITICAL - 2021-06-14 03:18:09 --> Undefined variable: index1
+#0 C:\xampp\htdocs\ltsa1\app\Views\beranda\beranda.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('beranda/beranda', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Beranda.php(21): view('beranda/beranda')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Beranda->beranda()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

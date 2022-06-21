@@ -1,0 +1,76 @@
+CRITICAL - 2021-06-21 00:54:32 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/navbar.p...', Array, true)
+#1 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(4): view('layout/navbar.p...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#4 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(31): view('layout/wrapper', Array)
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-21 01:01:11 --> Trying to get property 'username' of non-object
+#0 C:\xampp\htdocs\ltsa1\app\Views\template\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('template/index', Array, true)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#4 C:\xampp\htdocs\ltsa1\vendor\myth\auth\src\Controllers\AuthController.php(55): view('\\App\\Views\\Auth...', Array)
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->login()
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-21 01:07:03 --> Invalid file: template/.php
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/.php')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('template/', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(31): view('template/', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-21 01:08:56 --> Invalid file: template/.php
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/.php')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('template/', Array, true)
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(31): view('template/', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-21 01:27:26 --> View themes, no current section.
+#0 C:\xampp\htdocs\ltsa1\app\Views\home\index.php(187): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(31): view('home/index', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-21 01:33:55 --> Invalid file: template/index.php
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/index....')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('template/index', Array, true)
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Controllers\Home.php(31): view('home/index', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-21 03:37:13 --> Declaration of Myth\Auth\Filters\RoleFilter::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-21 03:39:02 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('home/index', 'before')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}

@@ -1,0 +1,88 @@
+CRITICAL - 2021-03-19 03:56:38 --> Undefined variable: tittle
+#0 C:\xampp\htdocs\ltsa1\app\Views\layout\navbar.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 149, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/navbar.p...', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(4): view('layout/navbar.p...')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Controllers\Sumber.php(29): view('layout/wrapper', Array)
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sumber->s_materi()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sumber))
+#9 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-03-19 03:57:16 --> Undefined variable: tittle
+#0 C:\xampp\htdocs\ltsa1\app\Views\layout\navbar.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 149, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/navbar.p...', Array, true)
+#3 C:\xampp\htdocs\ltsa1\app\Views\layout\wrapper.php(4): view('layout/navbar.p...')
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#6 C:\xampp\htdocs\ltsa1\app\Controllers\Sumber.php(28): view('layout/wrapper', Array)
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sumber->s_materi()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sumber))
+#9 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-03-19 03:57:37 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Sumber.php(24): CodeIgniter\Model->__call('get_sumber', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sumber->s_materi()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sumber))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-19 03:58:01 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Sumber.php(24): CodeIgniter\Model->__call('get_sumber', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sumber->s_materi()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sumber))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-19 03:58:21 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Sumber.php(24): CodeIgniter\Model->__call('get_sumber', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sumber->s_materi()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sumber))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-19 03:58:30 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Sumber.php(24): CodeIgniter\Model->__call('get_sumber', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sumber->s_materi()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sumber))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-19 03:59:03 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Sumber.php(24): CodeIgniter\Model->__call('get_sumber', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sumber->s_materi()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sumber))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-19 03:59:15 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Sumber.php(23): CodeIgniter\Model->__call('get_sumber', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sumber->s_materi()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sumber))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

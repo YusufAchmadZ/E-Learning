@@ -1,0 +1,10 @@
+CRITICAL - 2020-12-10 01:13:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ltsa1\app\Controllers\Mapel.php(22): CodeIgniter\Model->__call('get_id_pelajara...', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Mapel->umum()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

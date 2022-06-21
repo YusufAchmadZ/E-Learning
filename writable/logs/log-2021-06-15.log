@@ -1,0 +1,61 @@
+CRITICAL - 2021-06-15 01:00:06 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\Database.php(109): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\Config.php(148): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\SQLite3\Connection))
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\Migration.php(78): CodeIgniter\Database\Config::forge('tests')
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(1026): CodeIgniter\Database\Migration->__construct()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(223): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(128): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Migrate->run(Array)
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('migrate', Array)
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#10 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ltsa1\spark(57): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2021-06-15 04:24:01 --> Declaration of Myth\Auth\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-15 04:29:58 --> Invalid file: \App\Controllers\Auth\login.php
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Controller...')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('\\App\\Controller...', Array, true)
+#2 C:\xampp\htdocs\ltsa1\vendor\myth\auth\src\Controllers\AuthController.php(54): view('\\App\\Controller...', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->login()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 04:31:30 --> Invalid file: \App\Controllers\Auth\login.php
+#0 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Controller...')
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('\\App\\Controller...', Array, true)
+#2 C:\xampp\htdocs\ltsa1\vendor\myth\auth\src\Controllers\AuthController.php(54): view('\\App\\Controller...', Array)
+#3 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->login()
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 05:00:50 --> Undefined variable: tittle
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#3 C:\xampp\htdocs\ltsa1\vendor\myth\auth\src\Controllers\AuthController.php(54): view('\\App\\Views\\Auth...', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->login()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-15 05:01:25 --> Undefined variable: tittle
+#0 C:\xampp\htdocs\ltsa1\app\Views\auth\login.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 181, Array)
+#1 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#3 C:\xampp\htdocs\ltsa1\vendor\myth\auth\src\Controllers\AuthController.php(54): view('\\App\\Views\\Auth...', Array)
+#4 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->login()
+#5 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ltsa1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ltsa1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
